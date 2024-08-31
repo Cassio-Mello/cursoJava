@@ -48,18 +48,23 @@ public class ProjLabHenrJava {
 
         //condição tipo 1
         //umidade < 14% e residuos <=1 andardidos <=1% e carunchados <= 2% e qubrados <= 3% e avariados total <= 6%
-        if ( percentualUmidade <= 14 && percentualResiduo <= 1 && percentualArdido <=1 && percentualCarunchado <= 2 && percentualQuebrado <= 3 && percentualAvariadosTotais <= 6){
+        if ( percentualUmidade <= 14 && percentualResiduo <= 1 && percentualArdido <=1 
+        && percentualCarunchado <= 2 && percentualQuebrado <= 3 && percentualAvariadosTotais <= 6){
             System.out.println("A amostra " + nomeAmostra + " é do TIPO 1");
         }
         
         //condição tipo 2
         //umidade < 14% e residuos <= 1,5 ardidos <=2% e carunchados <= 3% e qubrados <= 4% e avariados total <= 10%
-        else if ( percentualUmidade <= 14 && percentualResiduo <= 1.5 && percentualArdido <= 2 && percentualCarunchado <= 3 && percentualQuebrado <= 4 && percentualAvariadosTotais <= 10){
+        else if ( percentualUmidade <= 14 && percentualResiduo <= 1.5 
+        && percentualArdido <= 2 && percentualCarunchado <= 3 && percentualQuebrado <= 4 
+        && percentualAvariadosTotais <= 10){
             System.out.println("A amostra " + nomeAmostra + " é do TIPO 2");
         }
         //condição tipo 3
         //#umidade < 14% e residuos <= 2 ardidos <=3% e carunchados <= 4% e qubrados <= 5% e avariados total <= 15%
-        else if ( percentualUmidade <= 14 && percentualResiduo <= 2 && percentualArdido <= 3 && percentualCarunchado <= 4 && percentualQuebrado <= 5 && percentualAvariadosTotais <= 15){
+        else if ( percentualUmidade <= 14 && percentualResiduo <= 2 
+        && percentualArdido <= 3 && percentualCarunchado <= 4 && percentualQuebrado <= 5
+         && percentualAvariadosTotais <= 15){
             System.out.println("A amostra " + nomeAmostra + " é do TIPO 3");
         }
         else{
